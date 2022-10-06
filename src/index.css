@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  
+}
+.main>h1{
+  color: #40e05b;
+}
+.content {
+  border: 4px dotted rgb(27, 17, 177) ;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color:rgb(255, 224, 252);
+  padding: 20px;
+  text-align: left;
+  margin: auto;
+  width: fit-content;
+  
+}
+table {
+  width: 100%;
+}
+td:first-child {
+  width: 100%;
+}
+td:last-child {
+  min-width: 125px;
+}
+th {
+  text-align: left;
+  color: red;
+}
+tr:nth-child(even) {
+  background-color: #928b8b;
+}
+
+input,
+button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px #d8169e solid;
+}
+button {
+  cursor: pointer;
+}
+button.add {
+  background-color: rgb(206, 149, 28);
+  color: #ffffff;
+}
+
+button.edit {
+  background-color: #cabac9;
+  color: #ffffff;
+}
+
+button.delete {
+  background-color: #f05f96;
+  color: #ffffff;
+}
+
+button.save {
+  background-color: #f51c5d;
+  color: #ffffff;
+  border: none;
+}
+
+/* button.back {
+  background-color: #707080;
+  color: #ffffff;
+} */
+button.close{
+  background-color:red;
+  color:white;
+  border: none;
+}
+.task {
+  cursor: pointer;
+}
+/*
+.completed {
+  text-decoration: line-through;
+}
+*/
+.modal {
+  font-size: 10px;
+  
+}
+.modal > .header {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 90%;
+  padding: 20px 5px;
+  margin: auto;
+  background-color:rgb(152, 251, 251);
+  border: 5px dotted rgb(218, 221, 16);
+  text-align: center;
+}
+
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+
+/* .modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+} */
+  
+ 
